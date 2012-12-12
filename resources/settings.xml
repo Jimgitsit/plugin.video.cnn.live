@@ -1,0 +1,8 @@
+<settings>
+   <setting id="us_news" 			type="bool" label="10000" default="true"/>
+   <setting id="world_news" 		type="bool" label="10100" default="true"/>
+   <setting id="entertainment_news" type="bool" label="10200" default="true"/>
+   <setting id="tech_news" 			type="bool" label="10300" default="true"/>
+   <setting id="health_news" 		type="bool" label="10400" default="true"/>
+   <setting id="max_days" type="number" label="35000" default="5"/>
+</settings>
