@@ -1,4 +1,3 @@
-
 # CNN Live - by Rooster
 
 import xbmcplugin,xbmcgui,xbmcaddon,time,urllib2,calendar,xml.sax.saxutils,sys
@@ -77,7 +76,7 @@ def getItems( url, filterDate = True ):
     req.add_header( 'User-Agent', 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.14) Gecko/20080404 Firefox/2.0.0.14' )
     req.add_header( 'Referer', 'http://www.navixtreme.com' )
     try:
-        response = urllib2.urlopen( req )
+        response = urllib2.urlopen( req, None, 60 )
         content = response.read()
         response.close()
     except HTTPError, code:
