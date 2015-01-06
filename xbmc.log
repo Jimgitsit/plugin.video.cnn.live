@@ -1,0 +1,1290 @@
+﻿15:06:24 T:1531507168  NOTICE: special://profile/ is mapped to: special://masterprofile/
+15:06:24 T:1531507168  NOTICE: -----------------------------------------------------------------------
+15:06:24 T:1531507168  NOTICE: Starting XBMC (13.0 Git:20140505-f42f5b5). Platform: ARM Android 32-bit
+15:06:24 T:1531507168  NOTICE: Using Debug XBMC x32 build, compiled May  5 2014 by GCC 4.8.0 for ARM Android 32-bit API level 14
+15:06:24 T:1531507168  NOTICE: Running on Android 32-bit API level 17 (Android, 3.4.0-perf-g21e3850 armv7l)
+15:06:24 T:1531507168  NOTICE: Host CPU: ARMv7 Processor rev 0 (v7l), 4 cores available
+15:06:24 T:1531507168  NOTICE: Product: bueller, Device: bueller, Board: MSM8960 - Manufacturer: Amazon, Brand: qcom, Model: AFTB, Hardware: qcom
+15:06:24 T:1531507168  NOTICE: ARM Features: Neon enabled
+15:06:24 T:1531507168  NOTICE: special://xbmc/ is mapped to: /data/data/org.xbmc.xbmc/cache/apk/assets
+15:06:24 T:1531507168  NOTICE: special://xbmcbin/ is mapped to: /data/data/org.xbmc.xbmc/cache/apk/assets
+15:06:24 T:1531507168  NOTICE: special://masterprofile/ is mapped to: /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/userdata
+15:06:24 T:1531507168  NOTICE: special://home/ is mapped to: /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc
+15:06:24 T:1531507168  NOTICE: special://temp/ is mapped to: /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/temp
+15:06:24 T:1531507168  NOTICE: The executable running is: /system/bin/app_process
+15:06:24 T:1531507168  NOTICE: Local hostname: localhost
+15:06:24 T:1531507168  NOTICE: Log File is located: /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/temp/xbmc.log
+15:06:24 T:1531507168  NOTICE: -----------------------------------------------------------------------
+15:06:24 T:1531507168  NOTICE: load settings...
+15:06:24 T:1531507168   DEBUG: static int CAndroidFeatures::GetVersion(): android.os.Build.VERSION 17
+15:06:24 T:1531507168   DEBUG: CSettings: loaded settings definition from special://xbmc/system/settings/settings.xml
+15:06:24 T:1531507168   DEBUG: CSettings: loaded settings definition from special://xbmc/system/settings/android.xml
+15:06:24 T:1531507168  NOTICE: Found 1 Lists of Devices
+15:06:24 T:1531507168  NOTICE: Enumerated AUDIOTRACK devices:
+15:06:24 T:1531507168  NOTICE:     Device 1
+15:06:24 T:1531507168  NOTICE:         m_deviceName      : AudioTrack
+15:06:24 T:1531507168  NOTICE:         m_displayName     : android
+15:06:24 T:1531507168  NOTICE:         m_displayNameExtra: audiotrack
+15:06:24 T:1531507168  NOTICE:         m_deviceType      : AE_DEVTYPE_HDMI
+15:06:24 T:1531507168  NOTICE:         m_channels        : FL,FR
+15:06:24 T:1531507168  NOTICE:         m_sampleRates     : 48000
+15:06:24 T:1531507168  NOTICE:         m_dataFormats     : AE_FMT_S16LE,AE_FMT_AC3,AE_FMT_DTS
+15:06:24 T:1531507168  NOTICE: No settings file to load (special://xbmc/system/advancedsettings.xml)
+15:06:24 T:1531507168  NOTICE: No settings file to load (special://masterprofile/advancedsettings.xml)
+15:06:24 T:1531507168  NOTICE: Default DVD Player: dvdplayer
+15:06:24 T:1531507168  NOTICE: Default Video Player: dvdplayer
+15:06:24 T:1531507168  NOTICE: Default Audio Player: paplayer
+15:06:24 T:1531507168  NOTICE: Disabled debug logging due to GUI setting. Level 0.
+15:06:24 T:1531507168  NOTICE: Log level changed to 0
+15:06:24 T:1531507168  NOTICE: CMediaSourceSettings: loading media sources from special://masterprofile/sources.xml
+15:06:24 T:1531507168  NOTICE: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+15:06:24 T:1531507168   DEBUG: CPlayerCoreConfig::<ctor>: created player DVDPlayer for core 1
+15:06:24 T:1531507168   DEBUG: CPlayerCoreConfig::<ctor>: created player oldmplayercore for core 1
+15:06:24 T:1531507168   DEBUG: CPlayerCoreConfig::<ctor>: created player PAPlayer for core 3
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: system rules
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtv
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: hdhomerun/myth/mms/udp
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: lastfm/shout
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtmp
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtsp
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: streams
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: aacp/sdp
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: mp2
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: dvd
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: dvdimage
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: sdp/asf
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: nsv
+15:06:24 T:1531507168   DEBUG: CPlayerSelectionRule::Initialize: creating rule: radio
+15:06:24 T:1531507168  NOTICE: Loaded playercorefactory configuration
+15:06:24 T:1531507168  NOTICE: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
+15:06:24 T:1531507168  NOTICE: special://masterprofile/playercorefactory.xml does not exist. Skipping.
+15:06:24 T:1531507168    INFO: creating subdirectories
+15:06:24 T:1531507168    INFO: userdata folder: special://masterprofile/
+15:06:24 T:1531507168    INFO: recording folder:
+15:06:24 T:1531507168    INFO: screenshots folder:
+15:06:24 T:1531507168    INFO: load language info file: special://xbmc/language/English/langinfo.xml
+15:06:24 T:1531507168   DEBUG: trying to set locale to en_US.UTF-8
+15:06:24 T:1531507168    INFO: global locale set to C
+15:06:24 T:1531507168    INFO: load English language file, from path: special://xbmc/language/
+15:06:24 T:1531507168   DEBUG: POParser: loaded 3162 strings from file /data/data/org.xbmc.xbmc/cache/apk/assets/language/English/strings.po
+15:06:24 T:1531507168   DEBUG: SECTION:LoadDLL(libavutil-52-arm.so)
+15:06:24 T:1531507168   DEBUG: Loading: /data/app-lib/org.xbmc.xbmc-1/libavutil-52-arm.so
+15:06:24 T:1531507168   DEBUG: SECTION:LoadDLL(libavcodec-54-arm.so)
+15:06:24 T:1531507168   DEBUG: Loading: /data/app-lib/org.xbmc.xbmc-1/libavcodec-54-arm.so
+15:06:24 T:1531507168   DEBUG: SECTION:LoadDLL(libavformat-54-arm.so)
+15:06:24 T:1531507168   DEBUG: Loading: /data/app-lib/org.xbmc.xbmc-1/libavformat-54-arm.so
+15:06:24 T:1540221984  NOTICE: Thread ActiveAE start, auto delete: false
+15:06:24 T:1547234152  NOTICE: Thread AESink start, auto delete: false
+15:06:24 T:1547234152    INFO: CActiveAESink::OpenSink - initialize sink
+15:06:24 T:1547234152   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+15:06:24 T:1547234152   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+15:06:24 T:1547234152   DEBUG:   Output Device : android
+15:06:24 T:1547234152   DEBUG:   Sample Rate   : 48000
+15:06:24 T:1547234152   DEBUG:   Sample Format : AE_FMT_S16NE
+15:06:24 T:1547234152   DEBUG:   Channel Count : 2
+15:06:24 T:1547234152   DEBUG:   Channel Layout: FL,FR
+15:06:24 T:1547234152   DEBUG:   Frames        : 1536
+15:06:24 T:1547234152   DEBUG:   Frame Samples : 3072
+15:06:24 T:1547234152   DEBUG:   Frame Size    : 4
+15:06:24 T:1540221984   DEBUG: SECTION:LoadDLL(libswresample-0-arm.so)
+15:06:24 T:1540221984   DEBUG: Loading: /data/app-lib/org.xbmc.xbmc-1/libswresample-0-arm.so
+15:06:24 T:1531507168  NOTICE: Running database version Addons16
+15:06:24 T:1531507168   DEBUG: SECTION:LoadDLL(libcpluff-arm.so)
+15:06:24 T:1531507168   DEBUG: Loading: /data/app-lib/org.xbmc.xbmc-1/libcpluff-arm.so
+15:06:24 T:1531507168  NOTICE: ADDONS: Using repository repository.xbmc.org
+15:06:24 T:1531507168  NOTICE: ADDONS: Using repository repository.pvr-android.xbmc.org
+15:06:24 T:1531507168   DEBUG: bool PERIPHERALS::CPeripherals::LoadMappings() - loaded node "Motorola Nyxboard Hybrid"
+15:06:24 T:1531507168   DEBUG: bool PERIPHERALS::CPeripherals::LoadMappings() - loaded node "CEC Adapter"
+15:06:24 T:1531507168   DEBUG: bool PERIPHERALS::CPeripherals::LoadMappings() - loaded node "Pulse-Eight CEC Adapter"
+15:06:24 T:1531507168   DEBUG: bool PERIPHERALS::CPeripherals::LoadMappings() - loaded node "iMON HID device"
+15:06:24 T:1531507168   DEBUG: PERIPHERALS::CPeripheralBusUSB::CPeripheralBusUSB(PERIPHERALS::CPeripherals*) - using libusb peripheral scanning
+15:06:24 T:1531507168   DEBUG: SECTION:LoadDLL(libcec.so)
+15:06:24 T:1531507168   DEBUG: Loading: /system/lib/libcec.so
+15:06:24 T:1531507168 WARNING: Unable to resolve: libcec.so CECInitialise, reason: Symbol not found:
+15:06:24 T:1531507168   ERROR: Unable to resolve exports from dll libcec.so
+15:06:24 T:1531507168   ERROR: virtual void PERIPHERALS::CPeripherals::Initialise() - failed to initialise bus cec
+15:06:24 T:1554878904  NOTICE: Thread PeripBusUSB start, auto delete: false
+15:06:24 T:1531507168  NOTICE: virtual bool CWinSystemEGL::InitWindowSystem(): Using EGL Implementation: android
+15:06:24 T:1531507168   DEBUG: bool CWinSystemEGL::CreateWindow(RESOLUTION_INFO&): Created surface of size 1920x1080
+15:06:24 T:1531507168  NOTICE: Current resolution: 1920x1080 @ 60.00 - Full Screen
+15:06:24 T:1531507168  NOTICE: Previous line repeats 1 times.
+15:06:24 T:1531507168  NOTICE: Found resolution 1920 x 1080 for display 0 with 1920 x 1080 @ 60.000000 Hz
+15:06:24 T:1531507168  NOTICE: Found (1920x1080@60.000000) at 16, setting to RES_DESKTOP at 16
+15:06:24 T:1531507168  NOTICE: Checking resolution 16
+15:06:24 T:1531507168  NOTICE: Current resolution: 1920x1080 @ 60.00 - Full Screen
+15:06:24 T:1531507168   DEBUG: bool CWinSystemEGL::CreateWindow(RESOLUTION_INFO&): Created surface of size 1920x1080
+15:06:24 T:1531507168  NOTICE: GL_VENDOR = Qualcomm
+15:06:24 T:1531507168  NOTICE: GL_RENDERER = Adreno (TM) 320
+15:06:24 T:1531507168  NOTICE: GL_VERSION = OpenGL ES 3.0 V@14.0 AU@04.02.02.073.175 PDAVID_AU_LINUX_ANDROID_JB_2.5.4.04.02.02.073.175+PATCH[ES]_msm8960_JB_2.5.4_CL3406509_release_ENGG (CL@3406509)
+15:06:24 T:1531507168  NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 3.00
+15:06:24 T:1531507168   DEBUG: GLES: Extension Support Test - GL_NVX_gpu_memory_info NO
+15:06:24 T:1531507168  NOTICE: GL_EXTENSIONS = GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_debug_labelGL_EXT_debug_markerGL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_depth_texture_cube_map GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_EXT_sRGB GL_EXT_texture_filter_anisotropic GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float
+15:06:24 T:1531507168   DEBUG: GLES: Extension Support Test - GL_EXT_texture_format_BGRA8888 YES
+15:06:24 T:1531507168   DEBUG: GLES: Extension Support Test - GL_IMG_texture_format_BGRA8888 NO
+15:06:24 T:1531507168   DEBUG: GLES: Extension Support Test - GL_APPLE_texture_format_BGRA8888 NO
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GL: Pixel Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Fragment Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GUI Shader [guishader_frag_default.glsl]- Initialise successful : 0x5ceb16d0
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GL: Pixel Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Fragment Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GUI Shader [guishader_frag_texture.glsl]- Initialise successful : 0x5ceb19c0
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GL: Pixel Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Fragment Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GUI Shader [guishader_frag_multi.glsl]- Initialise successful : 0x5ced5da0
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GL: Pixel Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Fragment Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GUI Shader [guishader_frag_fonts.glsl]- Initialise successful : 0x5cfd13c8
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GL: Pixel Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Fragment Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GUI Shader [guishader_frag_texture_noblend.glsl]- Initialise successful : 0x5ced7fc0
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GL: Pixel Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Fragment Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GUI Shader [guishader_frag_multi_blendcolor.glsl]- Initialise successful : 0x5cfbcc38
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GL: Pixel Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Fragment Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GUI Shader [guishader_frag_rgba.glsl]- Initialise successful : 0x5cf02f28
+15:06:24 T:1531507168   DEBUG: GLES: Extension Support Test - GL_OES_EGL_image_external YES
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GL: Pixel Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Fragment Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GUI Shader [guishader_frag_rgba_oes.glsl]- Initialise successful : 0x5ceec3c0
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Vertex Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GL: Pixel Shader compilation log:
+15:06:24 T:1531507168   DEBUG: GL: Fragment Shader compiled successfully
+15:06:24 T:1531507168   DEBUG: GUI Shader [guishader_frag_rgba_blendcolor.glsl]- Initialise successful : 0x5cee5348
+15:06:24 T:1531507168  NOTICE: Current resolution: 1920x1080 @ 60.00 - Full Screen
+15:06:24 T:1531507168   DEBUG: CWinSystemEGL::CreateNewWindow: No need to create a new window
+15:06:24 T:1531507168    INFO: GLES: Maximum texture width: 4096
+15:06:24 T:1531507168   DEBUG: CRenderManager::UpdateDisplayLatency - Latency set to 0 msec
+15:06:24 T:1531507168    INFO: load default splash image: /data/data/org.xbmc.xbmc/cache/apk/assets/media/Splash.png
+15:06:24 T:1531507168   DEBUG: SECTION:LoadDLL(libImageLib-arm.so)
+15:06:24 T:1531507168   DEBUG: Loading: /data/app-lib/org.xbmc.xbmc-1/libImageLib-arm.so
+15:06:24 T:1531507168    INFO: load keymapping
+15:06:24 T:1531507168    INFO: Loading special://xbmc/system/keymaps/appcommand.xml
+15:06:24 T:1531507168    INFO: Loading special://xbmc/system/keymaps/gamepad.xml
+15:06:24 T:1531507168    INFO: Loading special://xbmc/system/keymaps/joystick.xml
+15:06:24 T:1531507168  NOTICE: No Joystick name specified, loading default map
+15:06:24 T:1531507168  NOTICE: Previous line repeats 35 times.
+15:06:24 T:1531507168    INFO: Loading special://xbmc/system/keymaps/keyboard.xml
+15:06:24 T:1531507168    INFO: Loading special://xbmc/system/keymaps/mouse.xml
+15:06:24 T:1531507168    INFO: Loading special://xbmc/system/keymaps/remote.xml
+15:06:24 T:1531507168    INFO: Loading special://xbmc/system/keymaps/touchscreen.xml
+15:06:24 T:1531507168    INFO: GUI format 1920x1080, Display 1920x1080 @ 60.00 - Full Screen
+15:06:24 T:1531507168   DEBUG: guilib: Fill viewport on change for solving rendering passes
+15:06:24 T:1531507168   DEBUG: SECTION:LoadDLL(libcurl.so)
+15:06:24 T:1531507168   DEBUG: Loading: /data/app-lib/org.xbmc.xbmc-1/libcurl.so
+15:06:24 T:1531507168  NOTICE: Running database version Addons16
+15:06:24 T:1531507168   DEBUG: void CDatabaseManager::Initialize(bool), updating databases...
+15:06:24 T:1531507168  NOTICE: Running database version ViewModes6
+15:06:24 T:1531507168  NOTICE: Running database version Textures13
+15:06:24 T:1531507168  NOTICE: Running database version MyMusic46
+15:06:24 T:1531507168  NOTICE: Running database version MyVideos78
+15:06:24 T:1531507168  NOTICE: Running database version TV22
+15:06:24 T:1531507168  NOTICE: Running database version Epg7
+15:06:24 T:1531507168   DEBUG: void CDatabaseManager::Initialize(bool), updating databases... DONE
+15:06:24 T:1531507168  NOTICE: initializing playlistplayer
+15:06:24 T:1531507168  NOTICE: DONE initializing playlistplayer
+15:06:24 T:1531507168    INFO: DPMS: not supported on this platform
+15:06:24 T:1531507168   DEBUG: CAnnouncementManager - Announcement: OnClear from xbmc
+15:06:24 T:1531507168   DEBUG: GOT ANNOUNCEMENT, type: 2, from xbmc, message OnClear
+15:06:24 T:1531507168    INFO: Unloading old skin ...
+15:06:24 T:1531507168    INFO:   load skin from: /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence (version: 2.2.14)
+15:06:24 T:1531507168    INFO:   load fonts for skin...
+15:06:24 T:1531507168    INFO: Loading fonts from /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/720p/Font.xml
+15:06:24 T:1531507168   DEBUG: POParser: loaded 148 strings from file /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/language/English/strings.po
+15:06:24 T:1531507168    INFO: Loading skin includes from /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/720p/includes.xml
+15:06:25 T:1531507168    INFO:   load new skin...
+15:06:25 T:1531507168    INFO: Loading user windows, path /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/720p
+15:06:25 T:1531507168   DEBUG: Load Skin XML: 26.15ms
+15:06:25 T:1531507168    INFO:   initialize new skin...
+15:06:25 T:1531507168   DEBUG: guilib: Fill viewport on change for solving rendering passes
+15:06:25 T:1531507168    INFO: Loading skin file: Pointer.xml, load type: LOAD_ON_GUI_INIT
+15:06:25 T:1531507168   DEBUG: Load Pointer.xml: 2.78ms
+15:06:25 T:1531507168   DEBUG: bool CTextureBundleXBT::OpenBundle() - Opened bundle /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/media/Textures.xbt
+15:06:25 T:1531507168   DEBUG: Alloc resources: 13.34ms  (2.93 ms skin load)
+15:06:25 T:1531507168    INFO: Loading skin file: DialogVolumeBar.xml, load type: LOAD_ON_GUI_INIT
+15:06:25 T:1531507168   DEBUG: Load DialogVolumeBar.xml: 5.71ms
+15:06:25 T:1531507168   DEBUG: Alloc resources: 6.50ms  (5.89 ms skin load)
+15:06:25 T:1531507168    INFO: Loading skin file: DialogKaiToast.xml, load type: LOAD_ON_GUI_INIT
+15:06:25 T:1531507168   DEBUG: Load DialogKaiToast.xml: 3.85ms
+15:06:25 T:1531507168   DEBUG: Alloc resources: 4.03ms  (4.03 ms skin load)
+15:06:25 T:1531507168    INFO: Loading skin file: DialogMuteBug.xml, load type: LOAD_ON_GUI_INIT
+15:06:25 T:1531507168   DEBUG: Load DialogMuteBug.xml: 1.22ms
+15:06:25 T:1531507168   DEBUG: Alloc resources: 1.34ms  (1.34 ms skin load)
+15:06:25 T:1531507168    INFO: Loading skin file: DialogSeekBar.xml, load type: LOAD_ON_GUI_INIT
+15:06:25 T:1531507168   DEBUG: Load DialogSeekBar.xml: 14.77ms
+15:06:25 T:1531507168   DEBUG: Alloc resources: 16.20ms  (14.95 ms skin load)
+15:06:25 T:1531507168    INFO: Loading skin file: DialogBusy.xml, load type: LOAD_ON_GUI_INIT
+15:06:25 T:1531507168   DEBUG: Load DialogBusy.xml: 3.66ms
+15:06:25 T:1531507168   DEBUG: Alloc resources: 3.85ms  (3.81 ms skin load)
+15:06:25 T:1531507168    INFO: Loading skin file: DialogExtendedProgressBar.xml, load type: LOAD_ON_GUI_INIT
+15:06:25 T:1531507168   DEBUG: Load DialogExtendedProgressBar.xml: 2.99ms
+15:06:25 T:1531507168   DEBUG: Alloc resources: 3.17ms  (3.14 ms skin load)
+15:06:25 T:1531507168    INFO: Loading /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/sounds/sounds.xml
+15:06:25 T:1531507168    INFO:   skin loaded...
+15:06:25 T:1531507168   DEBUG: JSONRPC: JSON schema type stereoscopicmode references an unknown type GUI.Stereoscopy.Mode
+15:06:25 T:1531507168 WARNING: JSONRPC: Could not parse type "GUI.Property.Value"
+15:06:25 T:1531507168    INFO: JSONRPC: Adding type "GUI.Property.Value" to list of incomplete definitions (waiting for "GUI.Stereoscopy.Mode")
+15:06:25 T:1531507168    INFO: JSONRPC: Resolving incomplete types/methods referencing GUI.Stereoscopy.Mode
+15:06:25 T:1531507168   DEBUG: JSONRPC: JSON schema type definition references an unknown type Setting.Details.Setting
+15:06:25 T:1531507168 WARNING: JSONRPC: Could not parse type "Setting.Details.SettingList"
+15:06:25 T:1531507168    INFO: JSONRPC: Adding type "Setting.Details.SettingList" to list of incomplete definitions (waiting for "Setting.Details.Setting")
+15:06:25 T:1531507168    INFO: JSONRPC: Resolving incomplete types/methods referencing Setting.Details.Setting
+15:06:25 T:1531507168    INFO: JSONRPC v6.14.3: Successfully initialized
+15:06:25 T:1531507168   DEBUG: ADDON: Starting service addons.
+15:06:25 T:1569669264  NOTICE: Thread LanguageInvoker start, auto delete: false
+15:06:25 T:1569669264    INFO: initializing python engine.
+15:06:25 T:1531507168   DEBUG: Activating window ID: 12999
+15:06:25 T:1531507168   DEBUG: ------ Window Init (Startup.xml) ------
+15:06:25 T:1531507168    INFO: Loading skin file: Startup.xml, load type: LOAD_EVERY_TIME
+15:06:25 T:1531507168   DEBUG: Load Startup.xml: 6.56ms
+15:06:25 T:1531507168   DEBUG: Alloc resources: 6.81ms  (6.81 ms skin load)
+15:06:25 T:1531507168    INFO: removing tempfiles
+15:06:25 T:1531507168   DEBUG: ADDON: Starting service addons.
+15:06:25 T:1531507168  NOTICE: initialize done
+15:06:25 T:1531507168  NOTICE: Running the application...
+15:06:25 T:1531507168   DEBUG: Activating window ID: 10000
+15:06:25 T:1569274520  NOTICE: Thread LanguageInvoker start, auto delete: false
+15:06:25 T:1569274520    INFO: initializing python engine.
+15:06:25 T:1531507168    INFO: GLES: Enabling VSYNC
+15:06:25 T:1531507168    INFO: GLES: Selected vsync mode 10
+15:06:25 T:1531507168   DEBUG: ------ Window Deinit (Startup.xml) ------
+15:06:25 T:1531507168   DEBUG: ------ Window Init (Home.xml) ------
+15:06:25 T:1531507168    INFO: Loading skin file: Home.xml, load type: KEEP_IN_MEMORY
+15:06:25 T:1569669264   DEBUG: CPythonInvoker(0, /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.simple.downloader/default.py): start processing
+15:06:25 T:1569274520   DEBUG: CPythonInvoker(1, /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.common.plugin.cache/default.py): start processing
+15:06:25 T:1569669264  NOTICE: -->Python Interpreter Initialized<--
+15:06:25 T:1569669264   DEBUG: CPythonInvoker(0, /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.simple.downloader/default.py): the source file to load is /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.simple.downloader/default.py
+15:06:25 T:1569669264   DEBUG: CPythonInvoker(0, /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.simple.downloader/default.py): setting the Python path to /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.simple.downloader:/storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.simplejson/lib:/data/data/org.xbmc.xbmc/cache/apk/assets/addons/script.module.pil/lib:/storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.common.plugin.cache/lib:/storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.simple.downloader/lib:/data/data/org.xbmc.xbmc/cache/apk/assets/addons/xbmc.debug/:/storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.parsedom/lib:/:/data/app/org.xbmc.xbmc-1.apk/assets/python2.6/lib/python26.zip:/data/app/org.xbmc.xbmc-1.apk/assets/python2.6/lib/python2.6:/data/app/org.xbmc.xbmc-1.apk/assets/python2.6/lib/python2.6/plat-linux3:/data/app/org.xbmc.xbmc-1.apk/assets/python2.6/lib/python2.6/lib-tk:/data/app/org.xbmc.xbmc-1.apk/assets/python2.6/lib/python2.6/lib-old:/data/app/org.xbmc.xbmc-1.apk/assets/python2.6/lib/python2.6/lib-dynload
+15:06:25 T:1569669264   DEBUG: CPythonInvoker(0, /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.simple.downloader/default.py): entering source directory /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.simple.downloader
+15:06:25 T:1569274520  NOTICE: -->Python Interpreter Initialized<--
+15:06:25 T:1569274520   DEBUG: CPythonInvoker(1, /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.common.plugin.cache/default.py): the source file to load is /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.common.plugin.cache/default.py
+15:06:25 T:1569274520   DEBUG: CPythonInvoker(1, /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.common.plugin.cache/default.py): setting the Python path to /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.common.plugin.cache:/storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.simplejson/lib:/data/data/org.xbmc.xbmc/cache/apk/assets/addons/script.module.pil/lib:/storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.common.plugin.cache/lib:/storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.simple.downloader/lib:/data/data/org.xbmc.xbmc/cache/apk/assets/addons/xbmc.debug/:/storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.parsedom/lib:/:/data/app/org.xbmc.xbmc-1.apk/assets/python2.6/lib/python26.zip:/data/app/org.xbmc.xbmc-1.apk/assets/python2.6/lib/python2.6:/data/app/org.xbmc.xbmc-1.apk/assets/python2.6/lib/python2.6/plat-linux3:/data/app/org.xbmc.xbmc-1.apk/assets/python2.6/lib/python2.6/lib-tk:/data/app/org.xbmc.xbmc-1.apk/assets/python2.6/lib/python2.6/lib-old:/data/app/org.xbmc.xbmc-1.apk/assets/python2.6/lib/python2.6/lib-dynload
+15:06:25 T:1569274520   DEBUG: CPythonInvoker(1, /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.common.plugin.cache/default.py): entering source directory /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.common.plugin.cache
+15:06:25 T:1569669264   DEBUG: CPythonInvoker(0, /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.simple.downloader/default.py): instantiating addon using automatically obtained id of "script.module.simple.downloader" dependent on version 2.1.0 of the xbmc.python api
+15:06:25 T:1569274520   DEBUG: CPythonInvoker(1, /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.common.plugin.cache/default.py): instantiating addon using automatically obtained id of "script.common.plugin.cache" dependent on version 2.1.0 of the xbmc.python api
+15:06:25 T:1531507168   DEBUG: Load Home.xml: 298.46ms
+15:06:25 T:1531507168   DEBUG: Alloc resources: 319.43ms  (298.71 ms skin load)
+15:06:25 T:1570247144  NOTICE: Thread JobWorker start, auto delete: true
+15:06:25 T:1570247144   DEBUG: CRecentlyAddedJob::UpdateMusic() - Running RecentlyAdded home screen update
+15:06:25 T:1570247144   DEBUG: GetRecentlyAddedAlbumSongs() query: SELECT songview.* FROM (SELECT idAlbum FROM albumview ORDER BY idAlbum DESC LIMIT 10) AS recentalbums JOIN songview ON songview.idAlbum=recentalbums.idAlbum
+15:06:25 T:1570247144   DEBUG: bool CMusicDatabase::GetRecentlyAddedAlbums(VECALBUMS&, unsigned int) query: select * from albumview where strAlbum != '' order by idAlbum desc limit 10
+15:06:25 T:1570247144   DEBUG: CRecentlyAddedJob::UpdateVideos() - Running RecentlyAdded home screen update
+15:06:25 T:1531507168   DEBUG: no profile autoexec.py (/storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/userdata/autoexec.py) found, skipping
+15:06:25 T:1531507168   DEBUG: void CNetwork::NetworkMessage(CNetwork::EMESSAGE, int) - Starting network services
+15:06:25 T:1531507168  NOTICE: starting zeroconf publishing
+15:06:25 T:1569354848  NOTICE: Thread ZerocconfEmbedded start, auto delete: false
+15:06:25 T:1569354848   DEBUG: ZeroconfEmbedded - processing...
+15:06:25 T:1531507168  NOTICE: ES: Starting event server
+15:06:25 T:1571759904  NOTICE: Thread JobWorker start, auto delete: true
+15:06:25 T:1531507168    INFO: JSONRPC Server: Successfully initialized
+15:06:25 T:1568871696  NOTICE: Thread EventServer start, auto delete: false
+15:06:25 T:1531507168  NOTICE: Current resolution: 1920x1080 @ 60.00 - Full Screen
+15:06:25 T:1531507168   DEBUG: CWinSystemEGL::CreateNewWindow: No need to create a new window
+15:06:25 T:1531507168  NOTICE: GL_VENDOR = Qualcomm
+15:06:25 T:1531507168  NOTICE: GL_RENDERER = Adreno (TM) 320
+15:06:25 T:1531507168  NOTICE: GL_VERSION = OpenGL ES 3.0 V@14.0 AU@04.02.02.073.175 PDAVID_AU_LINUX_ANDROID_JB_2.5.4.04.02.02.073.175+PATCH[ES]_msm8960_JB_2.5.4_CL3406509_release_ENGG (CL@3406509)
+15:06:25 T:1531507168  NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 3.00
+15:06:26 T:1570467536  NOTICE: Thread TCPServer start, auto delete: false
+15:06:26 T:1568871696  NOTICE: ES: Starting UDP Event server on 0.0.0.0:9777
+15:06:26 T:1571759904   DEBUG: ZeroconfMDNS: identifier: servers.jsonrpc-tpc type: _xbmc-jsonrpc._tcp name:XBMC (localhost) port:9090
+15:06:26 T:1531507168   DEBUG: GLES: Extension Support Test - GL_NVX_gpu_memory_info NO
+15:06:26 T:1531507168  NOTICE: GL_EXTENSIONS = GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_debug_labelGL_EXT_debug_markerGL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_depth_texture_cube_map GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_EXT_sRGB GL_EXT_texture_filter_anisotropic GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float
+15:06:26 T:1531507168   DEBUG: GLES: Extension Support Test - GL_EXT_texture_format_BGRA8888 YES
+15:06:26 T:1531507168   DEBUG: GLES: Extension Support Test - GL_IMG_texture_format_BGRA8888 NO
+15:06:26 T:1531507168   DEBUG: GLES: Extension Support Test - GL_APPLE_texture_format_BGRA8888 NO
+15:06:26 T:1531507168   DEBUG: GUI Shader - Tried to Initialise again. Was this intentional?
+15:06:26 T:1568871696  NOTICE: UDP: Listening on port 9777
+15:06:26 T:1571759904   DEBUG: ZeroconfMDNS: identifier: servers.eventserver type: _xbmc-events._udp name:XBMC (localhost) port:9777
+15:06:26 T:1531507168   DEBUG: Checking repositories for updates (triggered by XBMC.org Add-ons)
+15:06:26 T:1571759904   DEBUG: CFileCache::Open - opening <addons/gotham/addons.xml.md5> using cache
+15:06:26 T:1571759904   DEBUG: CurlFile::Open(0x5d9b3d78) http://mirrors.xbmc.org/addons/gotham/addons.xml.md5
+15:06:26 T:1571759904    INFO: void XCURL::DllLibCurlGlobal::easy_aquire(const char*, const char*, XCURL::CURL_HANDLE**, XCURL::CURLM**) - Created session to http://mirrors.xbmc.org
+15:06:26 T:1572480896  NOTICE: Thread RSSReader start, auto delete: false
+15:06:26 T:1572480896   DEBUG: CurlFile::Open(0x6623ddb0) http://feeds.xbmc.org/xbmc
+15:06:26 T:1572480896    INFO: void XCURL::DllLibCurlGlobal::easy_aquire(const char*, const char*, XCURL::CURL_HANDLE**, XCURL::CURLM**) - Created session to http://feeds.xbmc.org
+15:06:26 T:1531507168    INFO: GLES: Enabling VSYNC
+15:06:26 T:1531507168    INFO: GLES: Selected vsync mode 10
+15:06:26 T:1570247144   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 78 ms for 10 items query: select * from movieview  ORDER BY dateAdded desc, idMovie desc LIMIT 10
+15:06:26 T:1569669264    INFO: CPythonInvoker(0, /storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/script.module.simple.downloader/default.py): script successfully run
+15:06:26 T:1569669264    INFO: Python script stopped
+15:06:26 T:1569669264   DEBUG: Thread LanguageInvoker 1569669264 terminating
+15:06:26 T:1570247144   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 104 ms for 10 items query: select * from episodeview  ORDER BY dateAdded desc, idEpisode desc LIMIT 10
+15:06:26 T:1570247144   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 2 ms for 0 items query: select * from musicvideoview  ORDER BY dateAdded desc, idMVideo desc LIMIT 10
+15:06:26 T:1570247144   DEBUG: CRecentlyAddedJob::UpdateTotal() - Running RecentlyAdded home screen update
+15:06:26 T:1569274520  NOTICE:  StorageServer Module loaded RUN
+15:06:26 T:1569274520  NOTICE: StorageClient-2.5.4 Starting server
+15:06:26 T:1723326368  NOTICE: Thread FileCache start, auto delete: false
+15:06:26 T:1723326368    INFO: CFileCache::Process - Hit eof.
+15:06:26 T:1723326368   DEBUG: Thread FileCache 1723326368 terminating
+15:06:26 T:1571759904   DEBUG: CFileCache::Open - opening <addons/frodo/addons.xml.md5> using cache
+15:06:26 T:1571759904   DEBUG: CurlFile::Open(0x5dbad968) http://mirrors.xbmc.org/addons/frodo/addons.xml.md5
+15:06:26 T:1572480896   DEBUG: Got rss feed: http://feeds.xbmc.org/xbmc
+15:06:26 T:1572480896   DEBUG: RSS feed encoding: UTF-8
+15:06:26 T:1572480896   DEBUG: Parsed rss feed: http://feeds.xbmc.org/xbmc
+15:06:26 T:1572480896   DEBUG: CurlFile::Open(0x6623ddb0) http://feeds.xbmc.org/latest_xbmc_addons
+15:06:26 T:1572480896   DEBUG: Got rss feed: http://feeds.xbmc.org/latest_xbmc_addons
+15:06:26 T:1572480896   DEBUG: RSS feed encoding: UTF-8
+15:06:26 T:1572480896   DEBUG: Parsed rss feed: http://feeds.xbmc.org/latest_xbmc_addons
+15:06:26 T:1572480896   DEBUG: CurlFile::Open(0x6623ddb0) http://feeds.xbmc.org/updated_xbmc_addons
+15:06:26 T:1572480896   DEBUG: Got rss feed: http://feeds.xbmc.org/updated_xbmc_addons
+15:06:26 T:1572480896   DEBUG: RSS feed encoding: UTF-8
+15:06:26 T:1572480896   DEBUG: Parsed rss feed: http://feeds.xbmc.org/updated_xbmc_addons
+15:06:26 T:1572480896   DEBUG: Thread RSSReader 1572480896 terminating
+15:06:26 T:1649624608  NOTICE: Thread JobWorker start, auto delete: true
+15:06:26 T:1569598448  NOTICE: Thread FileCache start, auto delete: false
+15:06:26 T:1569598448    INFO: CFileCache::Process - Hit eof.
+15:06:26 T:1569598448   DEBUG: Thread FileCache 1569598448 terminating
+15:06:26 T:1569354848   DEBUG: ZeroconfMDNS: XBMC (localhost)._xbmc-jsonrpc._tcp.local. registration removed
+15:06:26 T:1569354848   DEBUG: ZeroconfMDNS: XBMC (localhost)._xbmc-events._udp.local. registration removed
+15:06:26 T:1571759904   DEBUG: CFileCache::Open - opening <addons/gotham/addons.xml> using cache
+15:06:27 T:1571759904   DEBUG: CurlFile::Open(0x5dae5ae0) http://mirrors.xbmc.org/addons/gotham/addons.xml
+15:06:27 T:1573205344  NOTICE: Thread FileCache start, auto delete: false
+15:06:29 T:1573205344    INFO: CFileCache::Process - Hit eof.
+15:06:29 T:1573205344   DEBUG: Thread FileCache 1573205344 terminating
+15:06:29 T:1571759904   DEBUG: CFileCache::Open - opening <addons/frodo/addons.xml> using cache
+15:06:29 T:1571759904   DEBUG: CurlFile::Open(0x5d999a68) http://mirrors.xbmc.org/addons/frodo/addons.xml
+15:06:29 T:1662629536  NOTICE: Thread FileCache start, auto delete: false
+15:06:30 T:1531507168   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+15:06:30 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): right (0xf083) pressed, action is Right
+15:06:30 T:1650590720  NOTICE: Thread JobWorker start, auto delete: true
+15:06:30 T:1531507168   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+15:06:30 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): right (0xf083) pressed, action is Right
+15:06:31 T:1531507168   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+15:06:31 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): right (0xf083) pressed, action is Right
+15:06:31 T:1531507168   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+15:06:31 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): right (0xf083) pressed, action is Right
+15:06:31 T:1662629536    INFO: CFileCache::Process - Hit eof.
+15:06:31 T:1662629536   DEBUG: Thread FileCache 1662629536 terminating
+15:06:32 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:32 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:33 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:06:33 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:06:33 T:1531507168   DEBUG: Activating window ID: 10004
+15:06:33 T:1571759904   DEBUG: CFileCache::Open - opening <addons/gotham/pvr/android/addons.xml.md5> using cache
+15:06:33 T:1571759904   DEBUG: CurlFile::Open(0x5dbad968) http://mirrors.xbmc.org/addons/gotham/pvr/android/addons.xml.md5
+15:06:33 T:1531507168   DEBUG: ------ Window Deinit (Home.xml) ------
+15:06:33 T:1531507168   DEBUG: ------ Window Init (Settings.xml) ------
+15:06:33 T:1531507168    INFO: Loading skin file: Settings.xml, load type: KEEP_IN_MEMORY
+15:06:33 T:1531507168   DEBUG: Load Settings.xml: 28.93ms
+15:06:33 T:1531507168   DEBUG: Alloc resources: 30.79ms  (29.24 ms skin load)
+15:06:33 T:1686936040  NOTICE: Thread FileCache start, auto delete: false
+15:06:33 T:1686936040    INFO: CFileCache::Process - Hit eof.
+15:06:33 T:1686936040   DEBUG: Thread FileCache 1686936040 terminating
+15:06:34 T:1571759904   DEBUG: Addon script.module.dialogaddonscan requires xbmc.python version 2.0 which is not available
+15:06:34 T:1571759904   DEBUG: Addon script.module.playbackengine requires xbmc.python version 2.0 which is not available
+15:06:34 T:1571759904   DEBUG: Addon skin.carmichael requires xbmc.gui version 4.0.0 which is not available
+15:06:34 T:1571759904   DEBUG: Addon skin.diffuse requires xbmc.gui version 4.0.0 which is not available
+15:06:34 T:1571759904   DEBUG: Addon skin.droid requires xbmc.gui version 4.0.0 which is not available
+15:06:35 T:1571759904   DEBUG: Addon skin.nbox requires xbmc.gui version 4.0.0 which is not available
+15:06:35 T:1571759904   DEBUG: Addon skin.pm3-hd requires xbmc.gui version 4.0.0 which is not available
+15:06:35 T:1571759904   DEBUG: Addon skin.simplicity requires script.cu.lyrics version 2.0.6 which is not available
+15:06:35 T:1571759904   DEBUG: Addon skin.xeebo requires xbmc.gui version 4.0.0 which is not available
+15:06:35 T:1571759904   DEBUG: Addon skin.xperience-more requires xbmc.gui version 4.0.0 which is not available
+15:06:35 T:1571759904   DEBUG: Addon webinterface.home-row requires xbmc.gui version 4.0.0 which is not available
+15:06:35 T:1571759904   DEBUG: Addon webinterface.pwi requires xbmc.gui version 4.0.0 which is not available
+15:06:35 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:35 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:35 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:35 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:36 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:36 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:36 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:36 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:36 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:36 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:37 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:37 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:37 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:06:37 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:06:37 T:1531507168   DEBUG: Activating window ID: 10040
+15:06:38 T:1531507168   DEBUG: ------ Window Deinit (Settings.xml) ------
+15:06:38 T:1531507168   DEBUG: ------ Window Init (AddonBrowser.xml) ------
+15:06:38 T:1531507168    INFO: Loading skin file: AddonBrowser.xml, load type: KEEP_IN_MEMORY
+15:06:38 T:1531507168   DEBUG: Load AddonBrowser.xml: 140.72ms
+15:06:38 T:1531507168   DEBUG: Alloc resources: 148.10ms  (140.99 ms skin load)
+15:06:38 T:1531507168   DEBUG: CGUIMediaWindow::GetDirectory ()
+15:06:38 T:1531507168   DEBUG:   ParentPath = []
+15:06:38 T:1686910512  NOTICE: Thread BackgroundLoader start, auto delete: false
+15:06:38 T:1686910512   DEBUG: Thread BackgroundLoader 1686910512 terminating
+15:06:40 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:40 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:49 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:06:49 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:06:49 T:1531507168   DEBUG: CGUIMediaWindow::GetDirectory (addons://enabled/)
+15:06:49 T:1531507168   DEBUG:   ParentPath = []
+15:06:49 T:1723315064  NOTICE: Thread BackgroundLoader start, auto delete: false
+15:06:49 T:1723315064   DEBUG: Thread BackgroundLoader 1723315064 terminating
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: SECTION:UnloadDelayed(DLL: libcec.so)
+15:06:54 T:1531507168   DEBUG: Unloading: libcec.so
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:55 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:55 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:55 T:1531507168   DEBUG: SECTION:UnloadDelayed(DLL: libImageLib-arm.so)
+15:06:55 T:1531507168   DEBUG: Unloading: libImageLib-arm.so
+15:06:55 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:55 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:55 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:55 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:55 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:55 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:55 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:55 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:56 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:56 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:57 T:1531507168    INFO: void XCURL::DllLibCurlGlobal::CheckIdle() - Closing session to http://feeds.xbmc.org (easy=0x632bd540, multi=0x61f2aec8)
+15:06:57 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:06:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:06:57 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:06:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:06:57 T:1531507168   DEBUG: CGUIMediaWindow::GetDirectory ()
+15:06:57 T:1531507168   DEBUG:   ParentPath = []
+15:06:57 T:1663865104  NOTICE: Thread BackgroundLoader start, auto delete: false
+15:06:57 T:1663865104   DEBUG: Thread BackgroundLoader 1663865104 terminating
+15:06:58 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:58 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:58 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:06:58 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:06:59 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:06:59 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:06:59 T:1531507168    INFO: Loading skin file: FileBrowser.xml, load type: KEEP_IN_MEMORY
+15:06:59 T:1531507168   DEBUG: Load FileBrowser.xml: 38.88ms
+15:06:59 T:1531507168   DEBUG: Alloc resources: 40.04ms  (39.25 ms skin load)
+15:06:59 T:1531507168   DEBUG: ------ Window Init (FileBrowser.xml) ------
+15:06:59 T:1531507168   DEBUG: Window FileBrowser.xml was already loaded
+15:06:59 T:1531507168   DEBUG: Alloc resources: 0.03m
+15:07:03 T:1531507168    INFO: void XCURL::DllLibCurlGlobal::CheckIdle() - Closing session to http://mirrors.xbmc.org (easy=0x63239f00, multi=0x5d8dc640)
+15:07:19 T:1649624608   DEBUG: Thread JobWorker 1649624608 terminating (autodelete)
+15:07:19 T:1650590720   DEBUG: Thread JobWorker 1650590720 terminating (autodelete)
+15:07:19 T:1571759904   DEBUG: Thread JobWorker 1571759904 terminating (autodelete)
+15:07:19 T:1570247144   DEBUG: Thread JobWorker 1570247144 terminating (autodelete)
+15:09:59 T:1531507168   DEBUG: CAnnouncementManager - Announcement: OnScreensaverActivated from xbmc
+15:09:59 T:1531507168   DEBUG: GOT ANNOUNCEMENT, type: 4, from xbmc, message OnScreensaverActivated
+15:09:59 T:1531507168   DEBUG: ------ Window Init () ------
+15:09:59 T:1531507168   DEBUG: Alloc resources: 0.00ms  (0.00 ms skin load)
+15:18:41 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:41 T:1531507168   DEBUG: CAnnouncementManager - Announcement: OnScreensaverDeactivated from xbmc
+15:18:41 T:1531507168   DEBUG: GOT ANNOUNCEMENT, type: 4, from xbmc, message OnScreensaverDeactivated
+15:18:41 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, screen saver/dpms woken up
+15:18:42 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:42 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:42 T:1547234152    INFO: CActiveAESink::OpenSink - initialize sink
+15:18:42 T:1547234152   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+15:18:42 T:1547234152   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+15:18:42 T:1547234152   DEBUG:   Output Device : android
+15:18:42 T:1547234152   DEBUG:   Sample Rate   : 48000
+15:18:42 T:1547234152   DEBUG:   Sample Format : AE_FMT_S16NE
+15:18:42 T:1547234152   DEBUG:   Channel Count : 2
+15:18:42 T:1547234152   DEBUG:   Channel Layout: FL,FR
+15:18:42 T:1547234152   DEBUG:   Frames        : 1536
+15:18:42 T:1547234152   DEBUG:   Frame Samples : 3072
+15:18:42 T:1547234152   DEBUG:   Frame Size    : 4
+15:18:42 T:1531507168   DEBUG: ------ Window Deinit () ------
+15:18:46 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:46 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:46 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:46 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:47 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:18:47 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:18:47 T:1686931520  NOTICE: Thread JobWorker start, auto delete: true
+15:18:48 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:48 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:48 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:48 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:48 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:48 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:49 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:49 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:49 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:49 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:50 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:50 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:51 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:51 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:51 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:51 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:51 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:51 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:51 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:51 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:52 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:52 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:52 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:52 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:52 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:52 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:52 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:52 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:53 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:53 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:53 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:53 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:53 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:53 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:53 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:53 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:54 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:18:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:18:55 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:18:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:18:55 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:18:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:18:57 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:18:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:18:57 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:18:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:18:57 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:18:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:18:58 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:18:58 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:18:58 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:18:58 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:18:58 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:18:58 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:19:06 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:19:06 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:19:07 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:19:07 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:19:07 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:19:07 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:19:11 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:19:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:19:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:19:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:19:12 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:19:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:19:13 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:19:13 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:19:13 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:19:13 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:19:13 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:19:13 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:19:13 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:19:13 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:19:13 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:19:13 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:19:13 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:19:13 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:19:14 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:19:14 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:19:18 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:19:18 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:19:19 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:19:19 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:19:20 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:19:20 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:19:23 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:19:23 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:19:24 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:19:24 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:19:25 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:19:25 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:19:55 T:1686931520   DEBUG: Thread JobWorker 1686931520 terminating (autodelete)
+15:21:40 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:21:40 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:21:40 T:1547234152    INFO: CActiveAESink::OpenSink - initialize sink
+15:21:40 T:1649624608  NOTICE: Thread JobWorker start, auto delete: true
+15:21:40 T:1547234152   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+15:21:40 T:1547234152   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+15:21:40 T:1547234152   DEBUG:   Output Device : android
+15:21:40 T:1547234152   DEBUG:   Sample Rate   : 48000
+15:21:40 T:1547234152   DEBUG:   Sample Format : AE_FMT_S16NE
+15:21:40 T:1547234152   DEBUG:   Channel Count : 2
+15:21:40 T:1547234152   DEBUG:   Channel Layout: FL,FR
+15:21:40 T:1547234152   DEBUG:   Frames        : 1536
+15:21:40 T:1547234152   DEBUG:   Frame Samples : 3072
+15:21:40 T:1547234152   DEBUG:   Frame Size    : 4
+15:21:41 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:21:41 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:21:42 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:21:42 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:21:43 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:21:43 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:21:44 T:1531507168   DEBUG: ------ Window Deinit (FileBrowser.xml) ------
+15:21:44 T:1531507168   DEBUG: bool CZipManager::GetZipList(const CStdString&, std::vector<SZipEntry>&) - Processing zip://%2fsdcard%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2fplugin.video.cnn.live-master.zip/
+15:21:44 T:1531507168   DEBUG: Addon plugin.video.cnn.live requires xbmc.python version 1.0 which is not available
+15:21:44 T:1531507168   DEBUG: ------ Window Init (DialogKaiToast.xml) ------
+15:21:44 T:1531507168   DEBUG: Window DialogKaiToast.xml was already loaded
+15:21:44 T:1531507168   DEBUG: Alloc resources: 0.00m
+15:21:49 T:1531507168   DEBUG: ------ Window Deinit (DialogKaiToast.xml) ------
+15:21:52 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:21:52 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:21:52 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:21:52 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:21:53 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:21:53 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:21:53 T:1531507168   DEBUG: CGUIMediaWindow::GetDirectory (addons://enabled/)
+15:21:53 T:1531507168   DEBUG:   ParentPath = []
+15:21:53 T:1725610496  NOTICE: Thread BackgroundLoader start, auto delete: false
+15:21:53 T:1725610496   DEBUG: Thread BackgroundLoader 1725610496 terminating
+15:21:56 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:21:56 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:21:56 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:21:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:21:57 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:21:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:21:57 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:21:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:21:57 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:21:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:21:57 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:21:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:21:57 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:21:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:21:58 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:21:58 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:21:58 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:21:58 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:21:58 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:21:58 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:21:59 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:21:59 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:21:59 T:1531507168   DEBUG: CGUIMediaWindow::GetDirectory (addons://enabled/xbmc.addon.video)
+15:21:59 T:1531507168   DEBUG:   ParentPath = [addons://enabled/]
+15:21:59 T:1686991368  NOTICE: Thread BackgroundLoader start, auto delete: false
+15:21:59 T:1686991368   DEBUG: Thread BackgroundLoader 1686991368 terminating
+15:21:59 T:1649624608   DEBUG: SECTION:LoadDLL(libImageLib-arm.so)
+15:21:59 T:1649624608   DEBUG: Loading: /data/app-lib/org.xbmc.xbmc-1/libImageLib-arm.so
+15:21:59 T:1649624608   DEBUG: Caching image '/storage/emulated/0/Android/data/org.xbmc.xbmc/files/.xbmc/addons/plugin.video.youtube/icon.png' to '0/04e0a2d7.jpg':
+15:21:59 T:1649624608   DEBUG: cached image 'special://masterprofile/Thumbnails/0/04e0a2d7.jpg' size 256x256
+15:22:00 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:22:00 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:22:00 T:1531507168   DEBUG: CGUIMediaWindow::GetDirectory (addons://enabled/)
+15:22:00 T:1531507168   DEBUG:   ParentPath = []
+15:22:01 T:1572525008  NOTICE: Thread BackgroundLoader start, auto delete: false
+15:22:01 T:1572525008   DEBUG: Thread BackgroundLoader 1572525008 terminating
+15:22:04 T:1531507168   DEBUG: Keyboard: scancode: 0x04, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+15:22:04 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): backspace (0xf008) pressed, action is Back
+15:22:04 T:1531507168   DEBUG: CGUIMediaWindow::GetDirectory ()
+15:22:04 T:1531507168   DEBUG:   ParentPath = []
+15:22:04 T:1570457048  NOTICE: Thread BackgroundLoader start, auto delete: false
+15:22:04 T:1570457048   DEBUG: Thread BackgroundLoader 1570457048 terminating
+15:22:06 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:06 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:06 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:06 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:07 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:22:07 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:22:07 T:1531507168    INFO: Loading skin file: FileBrowser.xml, load type: KEEP_IN_MEMORY
+15:22:07 T:1531507168   DEBUG: Load FileBrowser.xml: 63.51ms
+15:22:07 T:1531507168   DEBUG: Alloc resources: 64.15ms  (63.72 ms skin load)
+15:22:07 T:1531507168   DEBUG: ------ Window Init (FileBrowser.xml) ------
+15:22:07 T:1531507168   DEBUG: Window FileBrowser.xml was already loaded
+15:22:07 T:1531507168   DEBUG: Alloc resources: 0.00m
+15:22:09 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:09 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:09 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:09 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:10 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:10 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:10 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:22:10 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:22:11 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:11 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:11 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:11 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:11 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:11 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:11 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:11 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:13 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:13 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:13 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:13 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:13 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:13 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:14 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:22:14 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:22:14 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:22:14 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:22:15 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:15 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:15 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:15 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:16 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:16 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:16 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:22:16 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:22:17 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:17 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:17 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:22:17 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:22:17 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:17 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:18 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:18 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:18 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:18 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:18 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:18 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:18 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:18 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:19 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:22:19 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:22:19 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:19 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:20 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:22:20 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:22:20 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:22:20 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:22:21 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:22:21 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:22:21 T:1531507168   DEBUG: ------ Window Deinit (FileBrowser.xml) ------
+15:22:21 T:1531507168   DEBUG: Addon plugin.video.cnn.live requires xbmc.python version 1.0 which is not available
+15:22:21 T:1531507168   DEBUG: ------ Window Init (DialogKaiToast.xml) ------
+15:22:21 T:1531507168   DEBUG: Window DialogKaiToast.xml was already loaded
+15:22:21 T:1531507168   DEBUG: Alloc resources: 0.00m
+15:22:27 T:1531507168   DEBUG: ------ Window Deinit (DialogKaiToast.xml) ------
+15:22:29 T:1531507168   DEBUG: SECTION:UnloadDelayed(DLL: libImageLib-arm.so)
+15:22:29 T:1531507168   DEBUG: Unloading: libImageLib-arm.so
+15:22:50 T:1649624608   DEBUG: Thread JobWorker 1649624608 terminating (autodelete)
+15:25:21 T:1531507168   DEBUG: CAnnouncementManager - Announcement: OnScreensaverActivated from xbmc
+15:25:21 T:1531507168   DEBUG: GOT ANNOUNCEMENT, type: 4, from xbmc, message OnScreensaverActivated
+15:25:21 T:1531507168   DEBUG: ------ Window Init () ------
+15:25:21 T:1531507168   DEBUG: Alloc resources: 0.03ms  (0.03 ms skin load)
+15:37:09 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:37:09 T:1531507168   DEBUG: CAnnouncementManager - Announcement: OnScreensaverDeactivated from xbmc
+15:37:09 T:1531507168   DEBUG: GOT ANNOUNCEMENT, type: 4, from xbmc, message OnScreensaverDeactivated
+15:37:09 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, screen saver/dpms woken up
+15:37:10 T:1531507168   DEBUG: ------ Window Deinit () ------
+15:37:10 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:37:10 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:37:10 T:1547234152    INFO: CActiveAESink::OpenSink - initialize sink
+15:37:10 T:1547234152   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+15:37:10 T:1547234152   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+15:37:10 T:1547234152   DEBUG:   Output Device : android
+15:37:10 T:1547234152   DEBUG:   Sample Rate   : 48000
+15:37:10 T:1547234152   DEBUG:   Sample Format : AE_FMT_S16NE
+15:37:10 T:1547234152   DEBUG:   Channel Count : 2
+15:37:10 T:1547234152   DEBUG:   Channel Layout: FL,FR
+15:37:10 T:1547234152   DEBUG:   Frames        : 1536
+15:37:10 T:1547234152   DEBUG:   Frame Samples : 3072
+15:37:10 T:1547234152   DEBUG:   Frame Size    : 4
+15:37:10 T:1531507168    INFO: Loading skin file: FileBrowser.xml, load type: KEEP_IN_MEMORY
+15:37:10 T:1531507168   DEBUG: Load FileBrowser.xml: 19.78ms
+15:37:10 T:1531507168   DEBUG: Alloc resources: 20.48ms  (20.02 ms skin load)
+15:37:10 T:1531507168   DEBUG: ------ Window Init (FileBrowser.xml) ------
+15:37:10 T:1531507168   DEBUG: Window FileBrowser.xml was already loaded
+15:37:10 T:1531507168   DEBUG: Alloc resources: 0.03m
+15:37:11 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:13 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:13 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:13 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:13 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:14 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:37:14 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:37:14 T:1725612944  NOTICE: Thread JobWorker start, auto delete: true
+15:37:16 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:37:16 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:37:17 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:37:17 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:37:17 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:37:17 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:37:18 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:37:18 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:37:18 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:37:18 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:37:18 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:37:18 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:37:19 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:37:19 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:37:20 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:20 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:20 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:20 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:20 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:20 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:20 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:37:20 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:37:21 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:21 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:21 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:37:21 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:37:22 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:22 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:23 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:23 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:23 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:23 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:23 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:23 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:24 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:24 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:24 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:37:24 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:37:25 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:25 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:25 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:37:25 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:37:26 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:37:26 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:37:27 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:37:27 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:37:27 T:1531507168   DEBUG: ------ Window Deinit (FileBrowser.xml) ------
+15:37:27 T:1531507168   DEBUG: ------ Window Init (DialogKaiToast.xml) ------
+15:37:27 T:1531507168   DEBUG: Window DialogKaiToast.xml was already loaded
+15:37:27 T:1531507168   DEBUG: Alloc resources: 0.03m
+15:37:32 T:1531507168   DEBUG: ------ Window Deinit (DialogKaiToast.xml) ------
+15:37:55 T:1725612944   DEBUG: Thread JobWorker 1725612944 terminating (autodelete)
+15:40:27 T:1531507168   DEBUG: CAnnouncementManager - Announcement: OnScreensaverActivated from xbmc
+15:40:27 T:1531507168   DEBUG: GOT ANNOUNCEMENT, type: 4, from xbmc, message OnScreensaverActivated
+15:40:27 T:1531507168   DEBUG: ------ Window Init () ------
+15:40:27 T:1531507168   DEBUG: Alloc resources: 0.03ms  (0.03 ms skin load)
+15:40:45 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:40:45 T:1531507168   DEBUG: CAnnouncementManager - Announcement: OnScreensaverDeactivated from xbmc
+15:40:45 T:1531507168   DEBUG: GOT ANNOUNCEMENT, type: 4, from xbmc, message OnScreensaverDeactivated
+15:40:45 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, screen saver/dpms woken up
+15:40:46 T:1531507168   DEBUG: ------ Window Deinit () ------
+15:40:47 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:40:47 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:40:47 T:1547234152    INFO: CActiveAESink::OpenSink - initialize sink
+15:40:47 T:1547234152   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+15:40:47 T:1547234152   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+15:40:47 T:1547234152   DEBUG:   Output Device : android
+15:40:47 T:1547234152   DEBUG:   Sample Rate   : 48000
+15:40:47 T:1547234152   DEBUG:   Sample Format : AE_FMT_S16NE
+15:40:47 T:1547234152   DEBUG:   Channel Count : 2
+15:40:47 T:1547234152   DEBUG:   Channel Layout: FL,FR
+15:40:47 T:1547234152   DEBUG:   Frames        : 1536
+15:40:47 T:1547234152   DEBUG:   Frame Samples : 3072
+15:40:47 T:1547234152   DEBUG:   Frame Size    : 4
+15:40:47 T:1531507168    INFO: Loading skin file: FileBrowser.xml, load type: KEEP_IN_MEMORY
+15:40:47 T:1531507168   DEBUG: Load FileBrowser.xml: 26.03ms
+15:40:47 T:1531507168   DEBUG: Alloc resources: 26.64ms  (26.25 ms skin load)
+15:40:47 T:1531507168   DEBUG: ------ Window Init (FileBrowser.xml) ------
+15:40:47 T:1531507168   DEBUG: Window FileBrowser.xml was already loaded
+15:40:47 T:1531507168   DEBUG: Alloc resources: 0.00m
+15:40:49 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:40:49 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:40:50 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:40:50 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:40:50 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:40:50 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:40:51 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:40:51 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:40:51 T:1663931520  NOTICE: Thread JobWorker start, auto delete: true
+15:40:51 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:40:51 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:40:52 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:40:52 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:40:52 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:40:52 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:40:52 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:40:52 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:40:53 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:40:53 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:40:53 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:40:53 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:40:54 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:40:54 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:40:55 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:40:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:40:55 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:40:55 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:40:56 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:40:56 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:40:56 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:40:56 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:40:56 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:40:56 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:40:57 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:40:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:40:57 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:40:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:40:58 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:40:58 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:40:58 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:40:58 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:40:58 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:40:58 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:40:58 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:40:58 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:40:59 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:40:59 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:41:00 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:41:00 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:41:00 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:41:00 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:41:00 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:41:00 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:41:01 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:41:01 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:41:01 T:1531507168   DEBUG: ------ Window Deinit (FileBrowser.xml) ------
+15:41:01 T:1531507168   DEBUG: ------ Window Init (DialogKaiToast.xml) ------
+15:41:01 T:1531507168   DEBUG: Window DialogKaiToast.xml was already loaded
+15:41:01 T:1531507168   DEBUG: Alloc resources: 0.00m
+15:41:07 T:1531507168   DEBUG: ------ Window Deinit (DialogKaiToast.xml) ------
+15:41:30 T:1663931520   DEBUG: Thread JobWorker 1663931520 terminating (autodelete)
+15:44:01 T:1531507168   DEBUG: CAnnouncementManager - Announcement: OnScreensaverActivated from xbmc
+15:44:01 T:1531507168   DEBUG: GOT ANNOUNCEMENT, type: 4, from xbmc, message OnScreensaverActivated
+15:44:01 T:1531507168   DEBUG: ------ Window Init () ------
+15:44:01 T:1531507168   DEBUG: Alloc resources: 0.03ms  (0.03 ms skin load)
+15:48:32 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:48:32 T:1531507168   DEBUG: CAnnouncementManager - Announcement: OnScreensaverDeactivated from xbmc
+15:48:32 T:1531507168   DEBUG: GOT ANNOUNCEMENT, type: 4, from xbmc, message OnScreensaverDeactivated
+15:48:32 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, screen saver/dpms woken up
+15:48:32 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:48:32 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:48:32 T:1547234152    INFO: CActiveAESink::OpenSink - initialize sink
+15:48:32 T:1547234152   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+15:48:32 T:1547234152   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+15:48:32 T:1547234152   DEBUG:   Output Device : android
+15:48:32 T:1547234152   DEBUG:   Sample Rate   : 48000
+15:48:32 T:1547234152   DEBUG:   Sample Format : AE_FMT_S16NE
+15:48:32 T:1547234152   DEBUG:   Channel Count : 2
+15:48:32 T:1547234152   DEBUG:   Channel Layout: FL,FR
+15:48:32 T:1547234152   DEBUG:   Frames        : 1536
+15:48:32 T:1547234152   DEBUG:   Frame Samples : 3072
+15:48:32 T:1547234152   DEBUG:   Frame Size    : 4
+15:48:32 T:1531507168    INFO: Loading skin file: FileBrowser.xml, load type: KEEP_IN_MEMORY
+15:48:32 T:1531507168   DEBUG: Load FileBrowser.xml: 18.19ms
+15:48:32 T:1531507168   DEBUG: Alloc resources: 18.86ms  (18.40 ms skin load)
+15:48:32 T:1531507168   DEBUG: ------ Window Init (FileBrowser.xml) ------
+15:48:32 T:1531507168   DEBUG: Window FileBrowser.xml was already loaded
+15:48:32 T:1531507168   DEBUG: Alloc resources: 0.00m
+15:48:33 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:48:33 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:48:33 T:1531507168   DEBUG: ------ Window Deinit () ------
+15:48:34 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:34 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:35 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:35 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:35 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:35 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:36 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:48:36 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:48:36 T:1723281600  NOTICE: Thread JobWorker start, auto delete: true
+15:48:37 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:48:37 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:48:37 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:48:37 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:48:38 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:48:38 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:48:38 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:48:38 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:48:38 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:48:38 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:48:38 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:48:38 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:48:39 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:48:39 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:48:41 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:41 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:41 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:41 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:41 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:41 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:41 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:41 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:42 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:42 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:42 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:42 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:43 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:48:43 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:48:44 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:48:44 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:48:44 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+15:48:44 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+15:48:44 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:48:44 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:48:45 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:45 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:45 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:48:45 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:48:46 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:46 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:46 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:46 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:47 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:47 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:47 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:47 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:47 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:47 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:48 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:48:48 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:48:48 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:48 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:49 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:48:49 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:48:49 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+15:48:49 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+15:48:50 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+15:48:50 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+15:48:50 T:1531507168   DEBUG: ------ Window Deinit (FileBrowser.xml) ------
+15:48:50 T:1531507168   DEBUG: ------ Window Init (DialogKaiToast.xml) ------
+15:48:50 T:1531507168   DEBUG: Window DialogKaiToast.xml was already loaded
+15:48:50 T:1531507168   DEBUG: Alloc resources: 0.00m
+15:48:55 T:1531507168   DEBUG: ------ Window Deinit (DialogKaiToast.xml) ------
+15:49:19 T:1723281600   DEBUG: Thread JobWorker 1723281600 terminating (autodelete)
+15:51:50 T:1531507168   DEBUG: CAnnouncementManager - Announcement: OnScreensaverActivated from xbmc
+15:51:50 T:1531507168   DEBUG: GOT ANNOUNCEMENT, type: 4, from xbmc, message OnScreensaverActivated
+15:51:50 T:1531507168   DEBUG: ------ Window Init () ------
+15:51:50 T:1531507168   DEBUG: Alloc resources: 0.00ms  (0.00 ms skin load)
+16:00:57 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:00:57 T:1531507168   DEBUG: CAnnouncementManager - Announcement: OnScreensaverDeactivated from xbmc
+16:00:57 T:1531507168   DEBUG: GOT ANNOUNCEMENT, type: 4, from xbmc, message OnScreensaverDeactivated
+16:00:57 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, screen saver/dpms woken up
+16:00:58 T:1531507168   DEBUG: ------ Window Deinit () ------
+16:00:58 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:00:58 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:00:58 T:1547234152    INFO: CActiveAESink::OpenSink - initialize sink
+16:00:58 T:1547234152   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+16:00:58 T:1531507168    INFO: Loading skin file: FileBrowser.xml, load type: KEEP_IN_MEMORY
+16:00:58 T:1547234152   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+16:00:58 T:1547234152   DEBUG:   Output Device : android
+16:00:58 T:1547234152   DEBUG:   Sample Rate   : 48000
+16:00:58 T:1547234152   DEBUG:   Sample Format : AE_FMT_S16NE
+16:00:58 T:1547234152   DEBUG:   Channel Count : 2
+16:00:58 T:1547234152   DEBUG:   Channel Layout: FL,FR
+16:00:58 T:1547234152   DEBUG:   Frames        : 1536
+16:00:58 T:1547234152   DEBUG:   Frame Samples : 3072
+16:00:58 T:1547234152   DEBUG:   Frame Size    : 4
+16:00:59 T:1531507168   DEBUG: Load FileBrowser.xml: 26.34ms
+16:00:59 T:1531507168   DEBUG: Alloc resources: 27.13ms  (26.58 ms skin load)
+16:00:59 T:1531507168   DEBUG: ------ Window Init (FileBrowser.xml) ------
+16:00:59 T:1531507168   DEBUG: Window FileBrowser.xml was already loaded
+16:00:59 T:1531507168   DEBUG: Alloc resources: 0.00m
+16:01:01 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:01 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:02 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:02 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:02 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:02 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:03 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:03 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:03 T:1574383736  NOTICE: Thread JobWorker start, auto delete: true
+16:01:04 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+16:01:04 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+16:01:04 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+16:01:04 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+16:01:05 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+16:01:05 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+16:01:05 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+16:01:05 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+16:01:05 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+16:01:05 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+16:01:06 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+16:01:06 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+16:01:06 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:06 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:08 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:08 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:08 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:08 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:08 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:08 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:09 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:09 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:09 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:09 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:10 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:10 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:10 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:10 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:11 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:11 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:11 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:11 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:11 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:12 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:12 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:12 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:13 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:13 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:13 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:13 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:14 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:14 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:14 T:1531507168   DEBUG: ------ Window Deinit (FileBrowser.xml) ------
+16:01:14 T:1531507168   DEBUG: ------ Window Init (DialogKaiToast.xml) ------
+16:01:14 T:1531507168   DEBUG: Window DialogKaiToast.xml was already loaded
+16:01:14 T:1531507168   DEBUG: Alloc resources: 0.00m
+16:01:19 T:1531507168   DEBUG: ------ Window Deinit (DialogKaiToast.xml) ------
+16:01:23 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:23 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:23 T:1531507168    INFO: Loading skin file: FileBrowser.xml, load type: KEEP_IN_MEMORY
+16:01:23 T:1531507168   DEBUG: Load FileBrowser.xml: 22.86ms
+16:01:23 T:1531507168   DEBUG: Alloc resources: 23.50ms  (23.10 ms skin load)
+16:01:23 T:1531507168   DEBUG: ------ Window Init (FileBrowser.xml) ------
+16:01:23 T:1531507168   DEBUG: Window FileBrowser.xml was already loaded
+16:01:23 T:1531507168   DEBUG: Alloc resources: 0.00m
+16:01:25 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:25 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:25 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:25 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:26 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:26 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:26 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:26 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:27 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+16:01:27 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+16:01:28 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+16:01:28 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+16:01:28 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+16:01:28 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+16:01:28 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+16:01:28 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+16:01:29 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+16:01:29 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+16:01:29 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+16:01:29 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+16:01:30 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:30 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:31 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:31 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:31 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:31 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:31 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:31 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:32 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:32 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:32 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:32 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:33 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:33 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:34 T:1531507168   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+16:01:34 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): up (0xf080) pressed, action is Up
+16:01:37 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:37 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:37 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:37 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:38 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:38 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:38 T:1531507168   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+16:01:38 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): down (0xf081) pressed, action is Down
+16:01:39 T:1531507168   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+16:01:39 T:1531507168   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, action is Select
+16:01:40 T:1531507168   DEBUG: ------ Window Deinit (FileBrowser.xml) ------
+16:01:40 T:1531507168   DEBUG: ------ Window Init (DialogKaiToast.xml) ------
+16:01:40 T:1531507168   DEBUG: Window DialogKaiToast.xml was already loaded
+16:01:40 T:1531507168   DEBUG: Alloc resources: 0.00m
+16:01:45 T:1531507168   DEBUG: ------ Window Deinit (DialogKaiToast.xml) ------
+16:02:08 T:1574383736   DEBUG: Thread JobWorker 1574383736 terminating (autodelete)

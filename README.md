@@ -1,3 +1,6 @@
+NO LONGER WORKS :(
+The Streams I was using no longer work. I'm on the lookout for more streams from CNN but until then, no workie.
+
 To Install
 ==========
 
